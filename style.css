@@ -20,7 +20,7 @@ body {
 }
 
 .inputBox h1 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .inputBox input {
@@ -28,7 +28,7 @@ body {
     width: 100%;
     height: 60px;
     margin: 15px 0 20px;
-    padding: 0 20px;
+    padding: 0 10px;
     font-size: 24px;
     border-radius: 8px;
 }
@@ -43,6 +43,6 @@ body {
     border-radius: 8px;
 }
 
-.inputBox #btn:active {
-    background: grey;
-}
+.inputBox #btn:hover {
+    transition: 1s;
+    box-shadow: 5px 5px 0px rgb(173, 80, 80);
