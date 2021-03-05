@@ -46,3 +46,14 @@ body {
 .inputBox #btn:hover {
     transition: 1s;
     box-shadow: 5px 5px 0px rgb(173, 80, 80);
+}
+
+.inputBox #generate  {
+    position: relative;
+    cursor: pointer;
+    background: grey;
+    font-size: 24px;
+    display:inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
