@@ -54,7 +54,7 @@ body {
 .inputBox #generate  {
     position: relative;
     cursor: pointer;
-    background: rgb(146, 150, 151);
+    background: rgb(185, 188, 189);
     font-size: 24px;
     display:inline-block;
     padding: 10px 15px;
