@@ -125,7 +125,7 @@ function generatePassword() {
     return ps;
 }
 // This puts the password value into the textbox
-// Changed function input to use textcontent
+// Changed function input
 function UserInput(ps) {
     document.getElementById("password").value = ps;
 }

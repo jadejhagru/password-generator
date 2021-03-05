@@ -60,3 +60,26 @@ body {
     padding: 10px 15px;
     border-radius: 8px;
 }
+
+@media (max-width: 690px) {
+    .btn {
+      font-size: 1rem;
+      margin: 16px 0px 0px 0px;
+      padding: 10px 15px;
+    }
+  
+    #generate {
+      font-size: 1rem;
+    }
+
+    #password {
+
+        font-style: 1rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .btn {
+      font-size: 0.8rem;
+    }
+  }
