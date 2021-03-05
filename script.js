@@ -27,7 +27,7 @@ var get = document.querySelector("#generate");
 
 get.addEventListener("click", function () {
     ps = generatePassword();
-    document.getElementById("generate").placeholder = ps;
+    document.getElementById("generate").value = ps;
 });
 
 // Start function to generate password
@@ -115,6 +115,7 @@ function generatePassword() {
     // Random selection for all variables: 
     for (var i = 0; i < enter; i++) {
         var pickChoices = choices[Math.floor(Math.random() * choices.length)];
+        console.log(i,pickChoices)
         password.push(pickChoices);
     }
     // This joins the password array and converts it to a string
@@ -126,12 +127,5 @@ function generatePassword() {
 // This puts the password value into the textbox
 // Changed function input to use textcontent
 function UserInput(ps) {
-    document.getElementById("password").textContent = ps;
-
+    document.getElementById("password").value = ps;
 }
-var copy = document.querySelector("#copy");
-copy.addEventListener("click", function () {
-    copyPassword();
-});
-// This copies the password value - works
-

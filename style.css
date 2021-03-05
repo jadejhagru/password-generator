@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     user-select: none;
+    
 }
 
 body {
@@ -11,6 +12,9 @@ body {
     justify-content:center;
     align-items: center;
     min-height: 100vh;
+    background-image: url("../password-generator/background-image.jfif");
+    background-size: cover;
+    
 }
 
 .inputBox {
@@ -21,6 +25,7 @@ body {
 
 .inputBox h1 {
     font-size: 40px;
+    text-shadow: 0 0 10px rgb(72, 61, 146);
 }
 
 .inputBox input {
@@ -36,22 +41,20 @@ body {
 .inputBox #btn {
     position: relative;
     cursor: pointer;
-    background: grey;
     font-size: 24px;
     display:inline-block;
-    padding: 10px 15px;
     border-radius: 8px;
 }
 
 .inputBox #btn:hover {
     transition: 1s;
-    box-shadow: 5px 5px 0px rgb(173, 80, 80);
+    box-shadow: 5px 5px 0px rgb(30, 30, 31);
 }
 
 .inputBox #generate  {
     position: relative;
     cursor: pointer;
-    background: grey;
+    background: rgb(146, 150, 151);
     font-size: 24px;
     display:inline-block;
     padding: 10px 15px;
