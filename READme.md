@@ -4,10 +4,10 @@ For our second assignment, we were given the challenge of creating a Password Gn
 
 This application does the following, 
 
-User clicks on the "Generate Password" function.
-User inputs how many characters they would like the password to be.
-Prompts will be available to the user so they can determine whether they would like numbers, uppercase, lowercase and special characters in the password.
-Once prompts are followed through, a new and secure password will generate and copy and pasted as needed.
+- User clicks on the "Generate Password" function.
+-  User inputs how many characters they would like the password to be.
+- Prompts will be available to the user so they can determine whether they would like numbers, uppercase, lowercase and special characters in the password.
+- Once prompts are followed through, a new and secure password will generate and copy and pasted as needed.
 
 URL to deployed website: https://jadejhagru.github.io/password-generator/
 URL to Github Repo: https://github.com/jadejhagru/password-generator
